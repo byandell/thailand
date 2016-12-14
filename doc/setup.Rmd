@@ -1,0 +1,47 @@
+---
+title: "Workshop Setup"
+author: "Brian S. Yandell"
+date: "January 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Communication Challenges
+
+- English as 2nd, 3rd (4th?) language
+- data experience and learned patterns
+- stat experience and access to consultants
+- math anxiety (see [Sheila Tobias books](http://sheilatobias.com/books.html))
+- IT/computing experience and access to tools
+- genetics knowledge
+- communicating outside chosen field
+
+## Communication Opportunities
+
+- many online resources
+    + <http://datacarpentry.org>: spreadsheet to R in 2 days
+    + <https://www.lynda.com/>: online skills tutorials
+    + [Professional Skills for Data Science](http://www.stat.wisc.edu/network-skills)
+- open source tools are quite good
+    + [R](https://cran.r-project.org/) & [Rstudio](https://www.rstudio.com/) for data science
+    + [Github](https://github.com/) for version control
+- [Google Drive](https://www.google.com/drive/), [DropBox](https://www.dropbox.com/), [Box](https://www.box.com/), ...
+
+Material for this course at <https://github.com/byandell/thailand>
+
+## Setup
+
+- install [R](http://www.r-project.org/) and [RStudio](http://www.rstudio.com/)
+    + [see datacarpentry instructions](http://www.datacarpentry.org/R-ecology-lesson/)
+- install packages qtl, rrBLUP
+    + [R/qtl steps](http://rqtl.org/tutorials/rqtltour2.pdf)
+    + rrBLUP; [Amy Jacobson slides](http://pbgworks.org/sites/pbgworks.org/files/Introduction%20to%20Genomic%20Selection%20in%20R.pdf) | [Jeff Endelman Notes](https://potatobreeding.cals.wisc.edu/wp-content/uploads/sites/21/2014/01/GS_tutorial.pdf)
+- download <https://github.com/byandell/thailand>
+
+## Organizing your work
+
+- [Karl Broman's initial steps to reproducible research](http://kbroman.org/steps2rr/)
+- [Karl Broman's data organization tips](http://kbroman.org/dataorg/)

@@ -1,0 +1,23 @@
+---
+title: "Experimental Design"
+author: "Brian S. Yandell"
+date: "January 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Outline
+
+- common breeding designs: BC & F2
+- advanced intercross lines
+- multi-parent populations
+
+## common breeding designs: BC & F2
+
+## advanced intercross lines
+
+## multi-parent populations
+
