@@ -1,0 +1,23 @@
+---
+title: "Models"
+author: "Brian S. Yandell"
+date: "January 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Model selection
+
+- how does genotype influence one phenotype?
+- original ideas developed when markers were rare & costly
+- refinements 
+
+- single marker regressions
+- single locus models: interval mapping for QTL
+- association mapping (including GWAS)
+- account for non-locus genetic effects
+
+$$ Y = 
