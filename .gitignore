@@ -12,5 +12,6 @@
 _site/
 data/DO_mice/do
 data/moore/?IL*
-data/.DS_Store
-
+*.zip
+*.rds
+*.rdata

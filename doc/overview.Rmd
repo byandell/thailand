@@ -16,7 +16,7 @@ Systems genetics is an approach to understand the flow of biological information
 
 how to relate phenotype to genotype
 
-<img src="plantcellbio.gif" alt="plantcellbiology.masters.grkraj.org/html/Plant_Cell_Genetics2-Genetics_files/image029.gif" style="width: 200px; float:right""/>
+<img src="../Fig/plantcellbio.gif" alt="plantcellbiology.masters.grkraj.org/html/Plant_Cell_Genetics2-Genetics_files/image029.gif" style="width: 200px; float:right"/>
 
 - gene mapping (QTL or linkage analysis)
 - genomic selection (MAS)

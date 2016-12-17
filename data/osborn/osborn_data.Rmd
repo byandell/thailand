@@ -61,3 +61,13 @@ newmap <- est.map(Bnapus)
 plotMap(Bnapus, newmap)
 ```
 
+```{r}
+pdf("Bnapus_pheno.pdf", width=9,height=6)
+par(mfrow=c(2,2))
+plotPheno(Bnapus, 8)
+plotPheno(Bnapus, 9)
+plot(Bnapus$pheno[,8], Bnapus$pheno[,9],
+     xlab = "flower4", ylab = "flower8")
+dev.off()
+```
+
