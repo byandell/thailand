@@ -11,11 +11,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Outline
 
-- common breeding designs: BC & F2
+- common breeding designs
+    + backcross (BC)
+    + intercross (F2)
+    + doubled haploid (DH)
 - advanced intercross lines
-- multi-parent populations
+    + recombinant inbred lines (RILs)
+    + near isogenic lines (NILs) & consomics
+    + multi-parent populations
 
-## common breeding designs: BC & F2
+## common breeding designs
 
 <img src="../Fig/backcross_bw.pdf" 
   alt="Backcross" 
@@ -41,7 +46,34 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <span style="font-size: 75%">Satagopan JM, Yandell BS, Newton MA, Osborn TC (1996) Genetics</span>
 
-## advanced intercross lines
+## recombinant inbred lines (RILs)
+
+<img src="../Fig/nrg2291-f4.jpeg" 
+  alt="RIL" 
+  style="width: 300px; float:right"/>
+
+- 2 or more inbred founders
+- single F1 self-pollinated
+- generations of random mating
+- generations of selfing
+- aim for homozygosity at all loci
+
+<span style="font-size: 50%">http://www.nature.com/nrg/journal/v9/n3/images/nrg2291-f4.jpg</span>
+
 
 ## multi-parent populations
+
+<img src="../Fig/DO_laura_vanderploeg.jpg" 
+  alt="RIL" 
+  style="width: 300px; float:right"/>
+
+- more than 2 inbred parents (4,8,20)
+- generations of cross-breeding
+- generations of selfing
+    + (sib-mating in animals)
+- possible generations of outcross
+
+<span style="font-size: 75%">Laura Vanderploeg, Jackson Labs</span>
+
+
 
