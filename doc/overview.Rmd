@@ -29,6 +29,15 @@ with changing technology
 
 <span style="font-size: 50%">Figure: plantcellbiology.masters.grkraj.org</span>
 
+## Thanks up front
+
+- Karl Broman, UW-Madison
+- Jeff Endelman, UW-Madison
+- Guilherme Rosa, UW-Madison
+- Eleazar Eskin, UCLA
+- Gary Churchill, Jackson Labs
+- UW-Madison sabbatical
+
 ## Approach in these talks
 
 mix of presentation style to plant-based audience

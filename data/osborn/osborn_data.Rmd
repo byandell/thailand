@@ -57,17 +57,73 @@ summary(Bnapus)
 ```
 
 ```{r}
+pdf("Bnapus_pheno.pdf", width=9,height=6)
+par(mfrow=c(2,2))
+plot(Bnapus$pheno[,8], Bnapus$pheno[,9],
+     xlab = "flower4", ylab = "flower8")
+plotPheno(Bnapus, 9)
+plotPheno(Bnapus, 8)
+dev.off()
+```
+
+```{r}
+pdf("Bnapus_map.pdf", width=9, height=6)
+plotMap(Bnapus)
+dev.off()
+```
+
+```{r}
 newmap <- est.map(Bnapus)
 plotMap(Bnapus, newmap)
 ```
 
 ```{r}
-pdf("Bnapus_pheno.pdf", width=9,height=6)
-par(mfrow=c(2,2))
-plotPheno(Bnapus, 8)
-plotPheno(Bnapus, 9)
-plot(Bnapus$pheno[,8], Bnapus$pheno[,9],
-     xlab = "flower4", ylab = "flower8")
+pdf("Bnapus_genotype.pdf", width=9,height=6)
+geno.image(Bnapus, "N2", main="")
 dev.off()
 ```
+
+```{r}
+pdf("Bnapus_genotype4.pdf", width=9,height=6)
+geno.image(Bnapus, "N2", main="", reorder=find.pheno(Bnapus, "flower4"))
+dev.off()
+```
+
+## Marker regression
+
+```{r}
+m1 <- "*wg6b10"
+m2 <- "*tg2f12"
+pdf("Bnapus_anova.pdf", width=6, height=7)
+tmppar <- par(mfrow=c(1,2))
+plotPXG(Bnapus, m1, find.pheno(Bnapus, "flower4"))
+plotPXG(Bnapus, m2, find.pheno(Bnapus, "flower4"))
+par(tmppar)
+dev.off()
+```
+
+
+
+## Interval mapping
+
+```{r}
+Bnapus <- calc.genoprob(Bnapus)
+```
+
+```{r}
+fl8 <- scanone(Bnapus, "N2", find.pheno(Bnapus, "flower8"))
+```
+
+```{r}
+plot(fl8)
+```
+
+```{r}
+fl4 <- scanone(Bnapus, "N2", find.pheno(Bnapus, "flower4"))
+```
+
+```{r}
+plot(fl4)
+```
+
 

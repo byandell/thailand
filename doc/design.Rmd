@@ -39,14 +39,8 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="../Fig/DH_bw.pdf" 
   alt="Intercross" 
   style="width: 350px; float:right"/>
-  
-## Phenotype data 
 
-![](../Fig/Bnapus_pheno.pdf)
-
-<span style="font-size: 75%">Satagopan JM, Yandell BS, Newton MA, Osborn TC (1996) Genetics</span>
-
-## recombinant inbred lines (RILs)
+## recombinant inbred lines (RIL)
 
 <img src="../Fig/nrg2291-f4.jpeg" 
   alt="RIL" 
@@ -58,8 +52,30 @@ knitr::opts_chunk$set(echo = FALSE)
 - generations of selfing
 - aim for homozygosity at all loci
 
-<span style="font-size: 50%">http://www.nature.com/nrg/journal/v9/n3/images/nrg2291-f4.jpg</span>
+<span style="font-size: 50%">www.nature.com/nrg/journal/v9/n3/images/nrg2291-f4.jpg</span>
 
+## near isogenic lines (NIL)
+
+<img src="../Fig/NIILpanel_Univ-of-Illinois-Chicago_w.jpeg" 
+  alt="RIL" 
+  style="width: 300px; float:left"/>
+
+<img src="../Fig/meddic.jp.png" 
+  alt="RIL" 
+  style="width: 450px; float:right"/>
+
+
+<span style="font-size: 50%">Rebecca Nelson blog.generationcp.org/category/women-in-science-2/</span>
+
+<span style="font-size: 50%">meddic.jp/isogenic_line</span>
+
+## Advanced Intercrosses
+
+<img src="../Fig/physiolgenomics.jpg" 
+  alt="AI_Woods" 
+  style="width: 800px"/>
+
+<span style="font-size: 75%">Leah Solberg Woods doi:10.1152/physiolgenomics.00127.2013</span> 
 
 ## multi-parent populations
 
