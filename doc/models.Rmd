@@ -209,16 +209,11 @@ Or use the hidden Markov model (HMM)} technology
 
 ## Normal mixtures
 
-<img src="../Fig/mixchr.pdf" style="width: 400px; float:left"/>
-
 <img src="../Fig/mixtures_bw.pdf" 
   alt="mix" 
-  style="width: 300px; float:right"/>
+  style="width: 350px; float:right"/>
 
-<br>
-<br>
-
-_
+<img src="../Fig/mixchr.pdf" style="width: 300px"/>
 
 - 2 markers separated by 20 cM
     + QTL closer to left marker
